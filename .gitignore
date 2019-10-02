@@ -5,4 +5,4 @@ target/classes/*
 target/maven-archiver/*
 target/maven-status/*
 logs/*
-/.idea/
+/.idea/*
