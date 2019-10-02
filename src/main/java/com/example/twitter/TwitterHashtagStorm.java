@@ -11,7 +11,7 @@ import org.apache.storm.tuple.Fields;
 
 public class TwitterHashtagStorm {
 
-	public static void main(String[] args) throws FileNotFoundException, IOException, InterruptedException {
+	public static void main(String[] args) throws Exception {
 		
 		Properties props = new Properties();
 		props.load(TwitterHashtagStorm.class.getResourceAsStream("/twitter.properties"));
